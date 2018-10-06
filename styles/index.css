@@ -1,0 +1,173 @@
+﻿@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../fonts/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Hairline;
+    src: url(../fonts/Montserrat-Hairline.ttf);
+}
+
+body {
+    background-color: #eee;
+    font-family: Montserrat-ExtraLight, Arial;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.cv {
+    background-color: #fff;
+    box-shadow: #aaa 0.3rem 0.3rem 1.6rem;
+    height: 79.2rem;
+    margin: 2rem auto;
+    width: 56rem;
+}
+
+.cv__aside {
+    background-color: #444;
+    box-sizing: border-box;
+    color: #eee;
+    height: 100%;
+    float: left;
+    padding: 3rem;
+    width: 19rem;
+}
+
+.cv__aside__photo {
+    height: 13rem;
+    width: 13rem;
+}
+
+.cv__aside__title {
+    font-family: Montserrat-Hairline, Arial;
+    font-size: 250%;
+    font-weight: 100;
+    margin: 1rem 0;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.cv__aside__subtitle {
+    border-top: 0.2rem solid #eee;
+    font-size: 130%;
+    margin: 1.5rem 0;
+    padding-top: 1.5rem;
+    width: calc(100% + 3rem);
+}
+
+.cv__aside__icon-item {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.cv__aside__address {
+    background-image: url(../images/contact/home.svg);
+}
+
+.cv__aside__email {
+    background-image: url(../images/contact/email.svg);
+}
+
+.cv__aside__phone {
+    background-image: url(../images/contact/phone.svg);
+}
+
+.cv__aside__web {
+    background-image: url(../images/contact/web.svg);
+}
+
+.cv__aside__linked-in {
+    background-image: url(../images/contact/linked-in.svg);
+}
+
+.cv__aside__astronomy {
+    background-image: url(../images/hobbies/astronomy.svg);
+}
+
+.cv__aside__television {
+    background-image: url(../images/hobbies/television.svg);
+}
+
+.cv__aside__nature {
+    background-image: url(../images/hobbies/nature.svg);
+}
+
+.cv__main {
+    float: right;
+    margin: 3rem;
+    margin-left: 1rem;
+    width: calc(100% - 23rem);
+}
+
+.cv__title {
+    font-family: Montserrat-ExtraLight, Arial;
+    font-size: 180%;
+    font-weight: 100;
+    margin: 1rem 0;
+    letter-spacing: 0.1em;
+}
+
+.cv__experience {
+    margin: 2rem 0;
+}
+
+.cv__experience__title {
+    font-size: 120%;
+    margin: 0;
+}
+
+.cv__experience__subtitle {
+    color: #aaa;
+    font-size: 120%;
+    margin: 0;
+}
+
+.cv__experience__date {
+    float: right;
+    margin-top: -2.5rem;
+}
+
+.cv__experience__description {
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.cv__skills {
+    box-sizing: border-box;
+    height: 14rem;
+    width: 100%;
+}
+
+.cv__skills__skill {
+    background: no-repeat center center;
+    background-size: cover;
+    box-sizing: border-box;
+    float: left;
+    height: 4.8rem;
+    padding: 0.6rem;
+    position: relative;
+    width: 4.8rem;
+}
+
+.cv__skills__skill img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cv__skills__container, .cv__skills__skill--main {
+    height: 9.6rem;
+    float: left;
+    width: 9.6rem;
+}
+
+.cv__skills__container--half {
+    width: 4rem;
+}
